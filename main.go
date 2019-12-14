@@ -61,7 +61,8 @@ func main() {
 	colog.SetDefaultLevel(colog.LDebug)
 	colog.Register()
 
-	var addr = flag.String("addr", ":8080", "The listen port of the application.")
+	port := os.Getenv(“PORT”)
+	var addr = flag.String("addr", ":" + port, "The listen port of the application.")
 	flag.Parse()
 
 	router := mux.NewRouter()
