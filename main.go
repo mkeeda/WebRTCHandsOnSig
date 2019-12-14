@@ -8,6 +8,7 @@ import (
 	"strings"
 	"sync"
 	"text/template"
+	"os"
 
 	"github.com/comail/colog"
 	"github.com/gorilla/mux"
