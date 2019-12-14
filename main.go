@@ -62,7 +62,7 @@ func main() {
 	colog.SetDefaultLevel(colog.LDebug)
 	colog.Register()
 
-	port := os.Getenv(“PORT”)
+	port := os.Getenv("PORT")
 	var addr = flag.String("addr", ":" + port, "The listen port of the application.")
 	flag.Parse()
 
