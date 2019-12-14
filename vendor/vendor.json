@@ -1,4 +1,25 @@
 {
-    "rootPath": "github.com/mkeeda/WebRTCHandsOnSig"
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "+U+s6CzixLU/wKizY4vRCkYJ1WM=",
+			"path": "github.com/comail/colog",
+			"revision": "fba8e7b1f46c3607f09760ce3880066e7ff57c5a",
+			"revisionTime": "2016-04-16T08:50:26Z"
+		},
+		{
+			"checksumSHA1": "oUtU1Z0YIhbjb+bfYSkzlim9FD4=",
+			"path": "github.com/gorilla/mux",
+			"revision": "49c01487a141b49f8ffe06277f3dca3ee80a55fa",
+			"revisionTime": "2019-11-21T17:05:00Z"
+		},
+		{
+			"checksumSHA1": "ajAqUByI39Sfm99F/ZNOguPP3Mk=",
+			"path": "github.com/gorilla/websocket",
+			"revision": "c3e18be99d19e6b3e8f1559eea2c161a665c4b6b",
+			"revisionTime": "2019-08-25T01:20:11Z"
+		}
+	],
+	"rootPath": "WebRTCHandsOnSig"
 }
-
